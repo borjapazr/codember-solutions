@@ -1,0 +1,49 @@
+{
+  "name": "codember-solutions",
+  "version": "1.0.0",
+  "description": "🎅💻️ Solutions to the challenges proposed by @midudev on codember.dev",
+  "keywords": [
+    "codember",
+    "midudev",
+    "javascript"
+  ],
+  "author": "Borja Paz Rodríguez (@borjapazr)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borjapazr/codember-solutions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/borjapazr/codember-solutions/issues"
+  },
+  "homepage": "https://github.com/borjapazr/codember-solutions#readme",
+  "main": "makeItSnow.js",
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=6.7.0"
+  },
+  "type": "module",
+  "scripts": {
+    "check:format": "prettier --check .",
+    "check:lint": "eslint . --ext .js --color",
+    "fix:format": "prettier --check --write --ignore-unknown .",
+    "fix:lint": "npm run check:lint -- --fix",
+    "challenge": "cross-env-shell 'runChallenge() { node ./${1:-2022}/challenge-${2:-01}/solution.js; }; runChallenge'",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "eslint": "^8.28.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.8.0"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
