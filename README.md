@@ -1,6 +1,12 @@
 # 📺👨‍💻 codember solutions [![GitHub RESULTS Workflow Status](https://img.shields.io/github/workflow/status/borjapazr/codember-solutions/RESULTS?style=flat-square&logo=github&label=RESULTS)](https://github.com/borjapazr/codember-solutions/actions)
 
-Solutions to the challenges proposed by [@midudev](https://midu.dev/) on the [codember](https://codember.dev/) website.
+<p align="center"> 
+  <img src=https://i.imgur.com/B1BCk5p.png/>
+</p>
+
+<h3 align="center">📺 ¿Puedes superar los retos de programación? • <a href="https://codember.dev">codember</a> 🚀</h3>
+
+This repository contains the solutions to the challenges proposed by [@midudev](https://midu.dev/) on the [codember](https://codember.dev/) website.
 
 ## 🤖 2022
 
