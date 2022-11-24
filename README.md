@@ -2,7 +2,7 @@
 
 Solutions to the challenges proposed by [@midudev](https://midu.dev/) on the [codember](https://codember.dev/) website.
 
-## 🤖 2021
+## 🤖 2022
 
 <details open>
 
@@ -16,6 +16,78 @@ Solutions to the challenges proposed by [@midudev](https://midu.dev/) on the [co
 | 02  |  [¡Atrapa a esos ciber criminales!](2022/challenge-02)   | [Show](2022/challenge-02/solution.js) |
 | 03  |         [La zebra de colores](2022/challenge-03)         | [Show](2022/challenge-03/solution.js) |
 | 04  | [Encuentra la contraseña de tu amigo](2022/challenge-04) | [Show](2022/challenge-04/solution.js) |
+
+</details>
+
+## 🕵️ Secrets
+
+<details>
+
+  <summary>🌅 Corrupt image</summary>
+
+```bash
+$ say elonmusk
+```
+
+</details>
+
+<details>
+
+  <summary>🐮 Cowsay</summary>
+
+```bash
+$ ping midu.dev
+```
+
+</details>
+
+<details>
+
+  <summary>🎉 Confetti</summary>
+
+```bash
+$ confetti
+```
+
+</details>
+
+<details>
+
+  <summary>🕹️ Tetris</summary>
+
+```bash
+$ play tetris
+```
+
+</details>
+
+<details>
+
+  <summary>🎲 Google <i>roll</i> trick</summary>
+
+```bash
+$ do a barrel roll
+```
+
+</details>
+
+<details>
+
+  <summary>📧 Mail</summary>
+
+```bash
+$ submit t8vjh832948fcnal
+```
+
+</details>
+
+<details>
+
+  <summary>🆙 Konami code</summary>
+
+```bash
+Press up, up, down, down, left, right, left, right, B, A
+```
 
 </details>
 

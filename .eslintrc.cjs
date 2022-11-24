@@ -23,6 +23,7 @@ module.exports = {
     'class-methods-use-this': 'off',
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
     'import/prefer-default-export': 'off',
-    'node/no-unsupported-features/es-syntax': ['error', { ignores: ['modules'] }]
+    'node/no-unsupported-features/es-syntax': ['error', { ignores: ['modules'] }],
+    'import/extensions': 'off'
   }
 };

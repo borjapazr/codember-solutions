@@ -15,10 +15,20 @@ help: ## Show this help
 install: ## Install dependencies
 	@npm install
 
-YEAR = 2022
-CHALLENGE = 01
+YEARS := $(shell seq -f "%02g" 2022 2022)
+CHALLENGES := $(shell seq -f "%02g" 1 4)
 
 .PHONY: run
 run: ## Run a challenge (make run YEAR=2022 CHALLENGE=01)
-	@npm run challenge $(YEAR) $(CHALLENGE)
-
+	@if [ -z "$(YEAR)" ] || [ -z "$(CHALLENGE)" ]; then \
+		for year in $(YEARS) ; do \
+			for challenge in $(CHALLENGES) ; do \
+				echo "🚀 Challenge $$year/$$challenge" ; \
+				node $$year/challenge-$$challenge/solution.js ; \
+				echo ; \
+			done \
+		done \
+	else \
+		echo "🚀 Challenge $(YEAR)/$(CHALLENGE)" ; \
+		node $(YEAR)/challenge-$(CHALLENGE)/solution.js; \
+	fi

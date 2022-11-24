@@ -1,6 +1,6 @@
 # Reto 1: ¡Arregla Twitter!
 
-## Problema
+## 🧐 Problema
 
 Twitter ha sido comprado y quieren eliminar los bots. Te han pedido ayuda para detectar el número de usuarios en su base de datos que tienen datos corruptos.
 
@@ -33,7 +33,7 @@ El cuarto usuario SÍ es válido. Tiene todos los campos.
 
 Ahora que ya sabes esto, usa este input para detectar los usuarios incorrectos: <https://codember.dev/users.txt>
 
-## Pistas
+## 🫣 Pistas
 
 - Los datos pueden estar en cualquier orden.
 - Los datos pueden estar en la misma línea o separados por líneas.
@@ -41,10 +41,16 @@ Ahora que ya sabes esto, usa este input para detectar los usuarios incorrectos: 
 - Los usuarios pueden estar repetidos, pero no importa, siguen siendo válidos.
 - Pueden venir datos que no son necesarios para el usuario pero eso no lo hacen inválidos.
 
-## Cómo enviar la solución
+## 📧 Cómo enviar la solución
 
 Usa el comando "submit" para enviar tu solución con el número de usuarios correctos + el nombre del último usuario válido. Por ejemplo:
 
 ```bash
 $ submit 482@midudev
+```
+
+## ✅ Solución
+
+```bash
+submit 156@giroz
 ```

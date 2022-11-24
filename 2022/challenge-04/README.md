@@ -1,6 +1,6 @@
 # Reto 4: Encuentra la contraseña de tu amigo
 
-## Problema
+## 🧐 Problema
 
 Un amigo compró 5 BitCoins en 2008. El problema es que lo tenía en un monedero digital... ¡y no se acuerda de la contraseña!
 
@@ -22,12 +22,18 @@ Nos ha puesto algunas ejemplos:
 
 Dice que el password está entre los números 11098 y 98123. ¿Le podemos decir cuantos números cumplen esas reglas dentro de ese rango?
 
-## Cómo enviar la solución
+## 📧 Cómo enviar la solución
 
 Envía la solución con el comando submit, y el número de passwords que cumplen el criterio junto con el password que está en el índice 55 de la lista de passwords válidos, separado por un guión.
 
 Por ejemplo, para 87 resultados y el password 35522 en la posición 55 sería:
 
 ```bash
-submit 87-35522
+$ submit 87-35522
+```
+
+## ✅ Solución
+
+```bash
+submit 165-23555
 ```

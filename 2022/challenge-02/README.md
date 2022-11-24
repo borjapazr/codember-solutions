@@ -1,6 +1,6 @@
 # Reto 2: ¡Atrapa a esos ciber criminales!
 
-## Problema
+## 🧐 Problema
 
 Un grupo de ciber criminales están usando mensajes encriptados para comunicarse. El FBI nos ha pedido ayuda para descifrarlos.
 
@@ -23,16 +23,22 @@ Pero han interceptado un mensaje más largo que no han podido y nos han dicho qu
 
 Ahora que ya sabes esto, <https://codember.dev/encrypted.txt>
 
-## Pistas
+## 🫣 Pistas
 
 - Recuerda que los mensajes son cadenas de texto conformadas por números y espacios en blanco.
 - Parece que los números tienen algo que ver con el código ASCII.
 - Los espacios en blanco parece que son simplemente espacios...
 
-## Cómo enviar la solución
+## 📧 Cómo enviar la solución
 
 Usa el comando "submit" para enviar tu solución con la frase descifrada, en minúsculas y respetando los espacios en blanco. Por ejemplo:
 
 ```bash
 $ submit this is fine
+```
+
+## ✅ Solución
+
+```bash
+submit thanks for playing codember please share
 ```
