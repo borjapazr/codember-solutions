@@ -1,4 +1,4 @@
-# 📺👨‍💻 codember solutions [![GitHub RESULTS Workflow Status](https://img.shields.io/github/workflow/status/borjapazr/codember-solutions/RESULTS?style=flat-square&logo=github&label=RESULTS)](https://github.com/borjapazr/codember-solutions/actions)
+# 📺👨‍💻 codember solutions [![GitHub RESULTS Workflow Status](https://img.shields.io/github/actions/workflow/status/borjapazr/codember-solutions/results.yml?branch=main&style=flat-square&logo=github&label=RESULTS)](https://github.com/borjapazr/codember-solutions/actions)
 
 <p align="center"> 
   <img src=https://i.imgur.com/B1BCk5p.png/>
